@@ -15,7 +15,9 @@ function info(){
     arr.push(obj)
 
     }
-console.log(arr);
 arr.pop()
+arr.sort((a , b) => a.age - b.age)
+return arr
 }
-info()
+console.log(info())
+
