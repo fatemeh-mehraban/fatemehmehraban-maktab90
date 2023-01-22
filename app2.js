@@ -4,8 +4,8 @@ function Increase(){
     Number = Number+1
     return Number
 }
-Increase()
-console.log(Increase());
+// console.log("Increase :" +Increase());
+
 function Decrease(){
     if(Number !== 0){
         Number = Number-1
@@ -14,4 +14,15 @@ function Decrease(){
     }
     return Number
 }
-// console.log(Decrease());
+// console.log("Decrease :" + Decrease());
+
+function Reset(){
+    Number = 0
+    return Number
+}
+// console.log(Reset());
+
+function Read(Number){
+  return console.log(Number);
+}
+Read("Read : " + Number);
