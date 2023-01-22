@@ -4,4 +4,14 @@ function Increase(){
     Number = Number+1
     return Number
 }
-// console.log(Increase());
+Increase()
+console.log(Increase());
+function Decrease(){
+    if(Number !== 0){
+        Number = Number-1
+    }else{
+        Number = 0
+    }
+    return Number
+}
+// console.log(Decrease());
