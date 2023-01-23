@@ -1,0 +1,54 @@
+@import url(reset.css);
+.main{
+    background-color: #f88cfb;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width:25vw ;
+    background-color:#ab58ce ;
+    border-radius: 5%;
+    padding: 50px 80px;
+}
+.profile-box{
+    width:15%;
+    height: 15%;
+    border-radius: 50%;
+}
+.profile-box img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.info{
+    margin-top: 30px;
+    color: #fafafac7;
+}
+.job{
+    text-transform: uppercase;
+}
+.name{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.box-pic{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.box-pic div{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.box-pic div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
