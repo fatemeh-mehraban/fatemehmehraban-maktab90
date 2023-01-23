@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Rubik:ital,wght@0,400;0,500;1,300&family=Vazirmatn:wght@200;400&display=swap');
 *, *::after,*::before{
     padding: 0;
     margin: 0;
@@ -7,10 +8,13 @@ body,html{
     width:100%;
     height: 100%;
 }
+body{
+    font-family:Vazirmatn;
+}
 .main{
     width: 100vw;
     height: 100vh;
-    background-image: url(img/6-1.jpg.crdownload);
+    background-image: url(img/london6.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -22,11 +26,11 @@ body,html{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #fafafae0;
+    background-color: #fafafad5;
 }
 .box{
     position: relative;
-    width: 20vw;
+    width: 25vw;
     min-height: 500px;
     background:linear-gradient(360deg, rgba(118, 5, 131, 0.906) 0%, rgba(30, 9, 219, 0.787) 64%, rgba(14, 100, 251, 0.421) 100%);
 }
@@ -54,6 +58,76 @@ body,html{
 .login{
     margin-top: 20px;
     font-size: 30px;
-    text-transform: capitalize;
-    color: #fafafa;
+    text-transform: uppercase;
+    color: #fafafac2;
+    font-weight:bolder ;
+
+}
+.form{
+    margin: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox{
+    width: 100%;
+    /* height: 30px; */
+    display: flex;
+    color: #fafafac2;
+    border-bottom: 2px solid #fafafa3e;
+    padding-bottom: 12px;
+}
+.username , .userpass{
+    width: 100%;
+    padding-left:10px;
+    border: none;
+    font-size: 17px;
+    background: none;
+    outline: none;
+}
+::placeholder {
+    color: #fafafac2;
+}
+.ti{
+    font-size: 25px;
+}
+.userpass-box{
+    margin-top: 40px;
+}
+.check-box{
+    align-self: flex-start;
+    color: #fafafac2;
+    margin-top: 40px;
+    font-weight: bolder;
+    position: relative;
+}
+.remember{
+    margin-left: 20px;
+}
+.checked{
+   opacity: 0;
+   width: 0;
+
+}
+.checkmark{
+    width: 17px;
+    height: 17px;
+    background-color: #fafafa;
+    position:absolute ;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+.btn{
+    margin-top: 40px;
+    padding: 17px 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bolder;
+}
+.Forget{
+    margin-top: 80px;
+    font-weight: bolder;
+    color: #fafafab4;
 }
