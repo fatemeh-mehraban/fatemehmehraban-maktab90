@@ -1,28 +1,26 @@
 "use strict"
-let Number = 0
-function Increase(){
-    Number = Number+1
-    return Number
-}
-// console.log("Increase :" +Increase());
-
-function Decrease(){
+const final = {
+    Number : 0,
+    Increase:function (){
+    this.Number = this.Number+1
+    return this
+},
+Decrease:function(){
     if(Number !== 0){
-        Number = Number-1
+    this.Number =this.Number-1
     }else{
-        Number = 0
+        this.Number = 0
     }
-    return Number
-}
-// console.log("Decrease :" + Decrease());
+    return this
+},
 
-function Reset(){
-    Number = 0
-    return Number
-}
-// console.log(Reset());
+Reset : function(){
+    this.Number = 0
+    return this
+},
 
-function Read(Number){
-  return console.log(Number);
+Read : function(){
+console.log(this.Number);
 }
-Read("Read : " + Number);
+}
+final.Increase().Increase().Increase().Increase().Decrease().Decrease().Reset().Read()
