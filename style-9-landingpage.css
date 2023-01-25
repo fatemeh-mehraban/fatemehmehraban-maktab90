@@ -1,1 +1,63 @@
 @import url(reset.css);
+.header{
+    width: 100vw;
+    height: 65vh;
+    background-image: url(img/1111.webp);
+    background-color:#6226ba;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 51vw;
+    background-position-y: 7vh;
+    padding: 0 100px;
+}
+nav{
+    height: 70px;
+}
+.nav-ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.nav-ul li{
+    height: 40px;
+
+    padding:5px 15px;
+    font-size: 20px;
+    transition: .5s;
+    color: #fafafa;
+}
+.nav-ul li:hover{
+    color: #43b6e7;
+    border-bottom: 1px solid #43b6e7b4;
+    cursor: pointer;
+}
+.nav-ul li:first-child{
+    border: 1px solid black;
+    background-color: #43b6e7;
+    border: none;
+}
+.nav-ul li:first-child:hover{
+    
+    color: #fafafa;
+    border-bottom: none;
+    background-color: #43b6e7c5;
+}
+.nav-ul li:last-child{
+    width: 200px;
+    height: 100%;
+    margin-top: 5px;
+    margin-right: auto;
+}
+.nav-ul li:last-child:hover{
+    cursor: none;
+    border: none;
+}
+.nav-ul li:last-child img{
+    width: 100%;
+    height: 100%;
+    
+}
