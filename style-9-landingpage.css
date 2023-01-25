@@ -10,6 +10,9 @@
     background-position-y: 7vh;
     padding: 0 100px;
 }
+button{
+    cursor: pointer;
+}
 nav{
     height: 70px;
 }
@@ -213,7 +216,7 @@ border-radius: 5px;
 }
 .line{
 width: 50%;
-height: 2px;
+height: 1px;
 background-color: gray;
 display: inline-block;
 position: relative;
@@ -268,6 +271,15 @@ background-image: url(img/wave-haikei\ \(4\).svg);
 box-shadow: rgba(80, 33, 128, 0.597) 2px 3px 10px,rgba(69, 29, 101, 0.23) 0px 3px 6px ;
 /* animation:  anime 2s; */
 
+}
+.card-section3:hover .line{
+    background-color: #fafafab9;
+}
+.card-section3:hover .line::after{
+    background-color: #fafafac2 ;
+}
+.card-section3:hover .line::before{
+    background-color: #fafafac2 ;
 }
 /* @keyframes anime{
  0%{
