@@ -266,8 +266,17 @@ position: relative;
 .card-section3:hover{
 background-image: url(img/wave-haikei\ \(4\).svg);
 box-shadow: rgba(80, 33, 128, 0.597) 2px 3px 10px,rgba(69, 29, 101, 0.23) 0px 3px 6px ;
+/* animation:  anime 2s; */
 
 }
+/* @keyframes anime{
+ 0%{
+ opacity: 0;
+ }
+ 100%{
+    opacity: 100%;
+ }
+} */
 .card-section3:hover h3 {
 color: #fafafa;
 transition: 0.5s;
@@ -334,7 +343,6 @@ color: gray;
 }
 .img-box-section4 img{
     width: 60px;
-    
     height: 60px;
     border-radius: 50%;
 }
@@ -373,7 +381,6 @@ color: gray;
 }
 .article img{
     width: 100%;
-    height: 200px;
 }
 .article ul{
     display: flex;
