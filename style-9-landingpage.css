@@ -1,6 +1,6 @@
 @import url(reset.css);
 .header{
-    width: 100vw;
+    width: 100%;
     height: 65vh;
     background-image: url(img/1111.webp);
     background-color:#6226ba;
@@ -84,3 +84,45 @@ nav{
     border-radius: 3px;
     margin-top: 35px;
 }
+/* *****************end header / start section 1 ****************** */
+.section-1{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(img/section1.webp);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: 55vw;
+    background-position-y: 7vh;
+    padding:150px 350px ;
+}
+.box-s1{
+    width: 35%;
+    margin-left: auto;
+}
+.box-s1 h2{
+    font-size: 35px;
+}
+.section-1-box-arror-text{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.arrow{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+    
+}
+.arrow img{
+    width: 100%;
+}
+.box-txt-arrow h3{
+    font-size:20px ;
+    text-transform: capitalize;
+}
+.box-txt-arrow p{
+    font-size:14px ;
+    color: gray;
+    text-transform: capitalize;
+}
+/* *******************end section 1************ */
